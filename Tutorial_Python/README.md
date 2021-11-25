@@ -1,14 +1,14 @@
 # TUTORIAL GENERALE DI PYTHON 
 ## Input e Output
+Qui riportiamo un esempio di input e output. Immettiamo il testo scelto dall'utente all'interno della variabile `string` e dopodichè la stampiamo concatenandola al nostro messaggio.
 ```python
 string = input("inserisci una stringa ")
 print("La stringa da te inserita é " + string)
 ```
 
 ## Tipi di variabili
+Le variabili in python sono dinamiche, ovvero posso immagazzinare diversi tipi di dati (interi, strighe, floating point...) all'interno di una sola variabile.
 ```python
-#I tipi di variabili sono dinamici
-
 var1 = 1
 print(type(var1))
 print(var1)
@@ -18,6 +18,7 @@ print(var1)
 ```
 
 ## Liste
+Possiamo vedere le liste come delle specie di array, dove nelle varie "posizioni" andiamo a mettere una serie di variabili (se voglio anche di diverso tipo). Dove le varie "posizioni" vanno dallo 0 fino alla lunghezza della stringa meno 1.
 ```python
 lista = ["Auricolari", 7, 12, "Gufo", 20.5]
 
@@ -32,14 +33,16 @@ print(f"\nLunghezza della lista: {len(lista)}")
 ```
 
 ## Tuple
+Qui vediamo una funzione che dati 2 valore come parametri ritorna una serie di dati elaborati. Come possiamo vedere non ritorna solo un dato come succede di solito, ma bensì 2. Quindi possiamo acquisire i dati ritornati della funzione con `var1, var2 = ...`
 ```python
 def fun(var1, var2):
     return var1*2, var2
 
-var1,var2 = fun( , 'ciao' )
+var1,var2 = fun(1, 'ciao' )
 ```
 
 ## Array e matrici
+Dato che in python non ci sarebbero dei tipi array importiamo una libreria che ci permette di utilizzare questo tipo di struttura (con `numpy` possiamo fare solo array di interi). 
 ```python
 import numpy as np
 
@@ -116,6 +119,7 @@ print("\nContinuo")
 ```
 
 ## Funzioni
+Una funzione è una porzione di codice che può essere invocata da qualsiasi punto di un programma.
 ```python
 def saluta(name):
     print(f'Ciao, {name}') 
@@ -127,6 +131,7 @@ if __name__ == "__main__":
 ```
 
 ## Variabili Globali
+Una variabile globale è una variabile a cui puoi accedere in qualsiasi punto del programma.
 ```python
 def saluta():
     print(f'Ciao, {nomeGlobale}') 
@@ -165,6 +170,7 @@ print(f'Lavoro di Marco: {dizionario_dati_Marco["lavoro"]}')    #La stringa ha u
 ```
 
 ## Classi ed oggetti
+Una classe, nella programmazione orientata agli oggetti, è un costrutto di un linguaggio di programmazione usato come modello per creare oggetti. Il modello comprende attributi e metodi che saranno condivisi da tutti gli oggetti creati (istanze) a partire dalla classe. Un oggetto è, di fatto, l'istanza di una classe.
 ```python
 class Cat:
     def __init__(self, name, age, color):

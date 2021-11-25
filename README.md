@@ -1,4 +1,4 @@
-<img src="https://www.itiszuccante.edu.it/sites/default/files/logozuccante.jpg" alt="logo" align="middle">></img>
+<img src="https://www.itiszuccante.edu.it/sites/default/files/logozuccante.jpg" alt="logo"></img>
 
 # telegram-bot-tutorial
 
@@ -25,9 +25,13 @@ Potete trovare una veloce guida all'utilizzo di python [qui](Tutorial_Python/REA
 
 ## Creare il proprio bot
 
+Per creare il nostro **bot telegram** dovremo contattare il bot [@BotFather](https://telegram.me/BotFather) direttamente su telegram.
+Per prima cosa digitiamo il comando `/newbot` e alla richiesta inseriamo il nome che verrà assegnato al nostro bot.
+In seguito digitare l'username e opzionalmente completare la configurazione del bot. Alla fine del processo ci resituirà il **token** del nostro bot che dovrà essere salvato e mai condiviso pubblicamente. Difatti il token ci permetterà di controllare il nostro bot attraverso python.
+
 ## Installazione requisiti
 
-Per poter dar vita al nostro bot abbiamo bisogno di scrivere del codice che caratterizzerà la sua funzionalità, e per farlo
+Per poter dar vita al nostro bot abbiamo bisogno di scrivere del codice che caratterizzerà le sue funzionalità, e per farlo
 avremo bisogno di **configurare** la macchina dove il codice verrà eseguito.
 
 ### Installazione Python
@@ -89,4 +93,3 @@ Se non riceviamo risposta possiamo provare con `pip` al posto di `pip3`.
 
 [Telepot](https://telepot.readthedocs.io/en/latest/reference.html)
 
->>>>>>> dfdc59a5b2c5b73aa467cd753b78ead018848eef

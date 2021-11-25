@@ -1,3 +1,5 @@
+<img src="https://www.itiszuccante.edu.it/sites/default/files/logozuccante.jpg"></img>
+
 # telegram-bot-tutorial
 
 ## Dispensa corso telegrame e bot telegram in python:

@@ -1,4 +1,4 @@
-<img src="https://www.itiszuccante.edu.it/sites/default/files/logozuccante.jpg"></img>
+<img src="https://www.itiszuccante.edu.it/sites/default/files/logozuccante.jpg" alt="logo" align="middle">></img>
 
 # telegram-bot-tutorial
 

@@ -2,12 +2,6 @@
 
 # telegram-bot-tutorial
 
-## Dispensa corso telegrame e bot telegram in python:
-Il corso è diviso in:
-- [Tutorial generale Python](./Tutorial_Python/README.md), un tutorial per imparare le basi di Python.
-- [Tutorial bot telegram](./Tutorial_BotTelegram/README.md), un tutorial per creare un bot telegram con Python e la libreria telepot.
-
-
 ## Introduzione:
 - [Introduzione Python](#Introduzione-Python)
 - [Telegram bot](#Telegram-bot)
@@ -15,6 +9,7 @@ Il corso è diviso in:
     - [Installazione requisiti](#Installazione-requisiti)
         - [Installazione Python](#Installazione-Python)
         - [Installazione telepot](#Installazione-telepot)
+    - [Programmare il bot](#Programmare-il-bot)
 - [Documentazione](#Documentazione)
 
 # Introduzione Python
@@ -86,6 +81,12 @@ pip3 install telepot
 pip3 install telepot --upgrade
 ```
 Se non riceviamo risposta possiamo provare con `pip` al posto di `pip3`.
+
+## Programmare il bot
+
+Per programmare il nostro bot telegram dobbiamo avvalerci di un IDE come [Visual Studio Code](https://code.visualstudio.com/download) o [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux).
+
+Possiamo dare al nostro bot diverse caratteristiche in base al codice che scriveremo. Abbiamo riportato vari esempi di codice [qui](/Tutorial_BotTelegram/).
 
 # Documentazione
 

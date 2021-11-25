@@ -8,11 +8,11 @@
         - [Installazione telepot](#Installazione-telepot)
 - [Documentazione](#Documentazione)
 
-## Introduzione Python
+# Introduzione Python
 
 Potete trovare una veloce guida all'utilizzo di python [qui](Tutorial_Python/README.md).
 
-## Telegram bot
+# Telegram bot
 
 ## Creare il proprio bot
 
@@ -34,7 +34,7 @@ In caso sia già installato, verificare che la versione sia **Python 3.5 o super
 
 Su **Windows** basterà recarsi sul [sito ufficiale](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) ed installare una versione **valida** di python.
 
-**N.B.** Durante l'installazione assicurarsi di aggiungere al PATH.
+**N.B.** Durante l'installazione assicurarsi di aggiungere al `PATH`.
 
 Su una distribuzione **Linux** basata su Debian come **Ubuntu** bisognerà eseguire i seguenti comandi all'interno del terminale:
 ```
@@ -57,7 +57,7 @@ pip --version
 Se non riceviamo risposta possiamo provare con `pip3` al posto di `pip`.
 In caso non funzionasse neanche ora seguire i passaggi qui sotto:
 
-Su **Windows** se si è già [installato python](#Installare-python) bisogna [aggiungerlo alle variabile d'ambiente](https://www.tecnobabele.com/come-aggiungere-python-alla-variabile-path-di-windows/2020-10-14/), ovvero `PATH`.
+Su **Windows** se si è già [installato python](#Installare-Python) bisogna [aggiungerlo alle variabile d'ambiente](https://www.tecnobabele.com/come-aggiungere-python-alla-variabile-path-di-windows/2020-10-14/), ovvero `PATH`.
 
 Su **Ubuntu** bisognerà digitare su terminale:
 ```
@@ -74,7 +74,7 @@ pip3 install telepot --upgrade
 ```
 Se non riceviamo risposta possiamo provare con `pip` al posto di `pip3`.
 
-## Documentazione
+# Documentazione
 
 [Telegram Bot API](https://core.telegram.org/api)
 

@@ -165,8 +165,8 @@ dizionario = {"chiave":"valore"}
 dizionario_dati_Sara = {"nome":"Sara", "eta":"22", "sesso":"F", "lavoro":"Insegnante"}
 dizionario_dati_Marco = {"nome":"Marco", "eta":"19", "sesso":"M", "lavoro":"cuoco"}
 
-print(f'etá di Sara: {dizionario_dati_Sara["eta"]}')            #La stringa ha una formatazione
-print(f'Lavoro di Marco: {dizionario_dati_Marco["lavoro"]}')    #La stringa ha una formatazione
+print(f'etá di Sara: {dizionario_dati_Sara["eta"]}')            #La stringa ha una formattazione
+print(f'Lavoro di Marco: {dizionario_dati_Marco["lavoro"]}')    #La stringa ha una formattazione
 ```
 
 ## Classi ed oggetti

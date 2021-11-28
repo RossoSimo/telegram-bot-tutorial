@@ -103,7 +103,7 @@ for i in range(3,9):
     print(i)
 
 print("\nRange da 2 a 10 con intervalli di 2")
-for i in range(2, 11, 2):
+for i in range(2, 10, 2):
     print(i)
 
 #-----------------WHILE--------------------
